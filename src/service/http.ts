@@ -37,7 +37,7 @@ class Http {
 
   initHttp() {
     const http = axios.create({
-      baseURL: "https://interlanapi.interlan.se/api/",
+      baseURL: "",
       headers,
     });
 
